@@ -42,7 +42,7 @@ class MainActivity : AppCompatActivity() {
         dialogFragment.setOnDateSetListener { year, month ->
             tahun = year
             monthOfYear = month
-            loadCalendar()
+            //loadCalendar()
         }
     }
 
